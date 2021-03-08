@@ -48,13 +48,4 @@ public class Student implements java.io.Serializable {
 	public void setCourses(ArrayList<String> course) {
 		this.courses = new ArrayList<String>(course);
 	}
-	
-//   @Override
-//   public String toString() {
-//	   return( "Studnet #: " + this.getStdID() + "\n");
-////        return ("StudentName:"+this.getStudentName()+
-////                    " Student No: "+ this.getStudentNo() +
-////                    " Email: "+ this.getEmail() +
-////                    " Year : " + this.getYear());
-//   }
 }
